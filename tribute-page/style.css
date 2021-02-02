@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+}
+#image {
+  display: block;
+  max-width: 100%; 
+  margin: auto;
+}
+#main{
+  background-color: #eee;
+  border-radius: 5px;
+  padding:0 10px;
+}
+#title{
+  text-align:center;
+  font-size: 40px;
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+#title span{
+  font-size: 16px;
+  color: rgb(51, 51, 51);
+  font-weight: 400;
+}
+#img-div{
+  background-color: white;
+  padding: 10px;
+}
+#img-caption{
+  margin: 15px 0 5px 0;
+  font-size: 16px;
+  text-align: center; 
+}
+#tribute-info h2{
+  font-size: 18.72px;
+  text-align: center;
+}
+ul{
+  text-align: left;
+  line-height: 1.6;
+  font-size: 16px;
+}
+li{
+  margin: 16px 0 16px 0;
+}
+#tribute-info{
+  max-width: 545px;
+  margin: 0 auto;
+}
+#tribute-info p{
+  font-style: italic;
+  font-size: 16px;
+  margin: 50px  23px ;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+#tribute-info cite{
+ 
+  margin: 0 23px;
+  font-size :16px;
+  text-align: left;
+}
+#wikipedia-link{
+  text-align:center !important;
+  font-weight: 700;
+  font-style: none !important;
+}
